@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="interface">
+      <UniqueIdentifier>{aea8d2c0-78e0-4a27-9f20-39ff5a502e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\asio">
+      <UniqueIdentifier>{fd8f8c12-eb02-47f5-9219-66ae868a68f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\logger">
+      <UniqueIdentifier>{120086d7-6f6e-473e-ab33-79a71f7f5b44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\parser">
+      <UniqueIdentifier>{7e1b7ef3-c817-497a-8b4f-31dae13faf89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\scpi">
+      <UniqueIdentifier>{eb79b31a-a5f8-406a-911d-800be87ad972}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SCPITest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SCPIInterface\SCPIInterface.cpp">
+      <Filter>interface</Filter>
+    </ClCompile>
+    <ClCompile Include="SCPIInterface\asio\NetParser.cpp">
+      <Filter>interface\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="SCPIInterface\asio\TCPListner.cpp">
+      <Filter>interface\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="SCPIInterface\asio\TCPSession.cpp">
+      <Filter>interface\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="SCPIInterface\logger\Logger.cpp">
+      <Filter>interface\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="SCPIInterface\logger\StringConv.cpp">
+      <Filter>interface\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="SCPIInterface\parser\ParserBase.cpp">
+      <Filter>interface\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="SCPIInterface\parser\SCPIParser.cpp">
+      <Filter>interface\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="SCPIInterface\src\error.cpp">
+      <Filter>interface\scpi</Filter>
+    </ClCompile>
+    <ClCompile Include="SCPIInterface\src\expression.cpp">
+      <Filter>interface\scpi</Filter>
+    </ClCompile>
+    <ClCompile Include="SCPIInterface\src\fifo.cpp">
+      <Filter>interface\scpi</Filter>
+    </ClCompile>
+    <ClCompile Include="SCPIInterface\src\ieee488.cpp">
+      <Filter>interface\scpi</Filter>
+    </ClCompile>
+    <ClCompile Include="SCPIInterface\src\lexer.cpp">
+      <Filter>interface\scpi</Filter>
+    </ClCompile>
+    <ClCompile Include="SCPIInterface\src\minimal.cpp">
+      <Filter>interface\scpi</Filter>
+    </ClCompile>
+    <ClCompile Include="SCPIInterface\src\parser.cpp">
+      <Filter>interface\scpi</Filter>
+    </ClCompile>
+    <ClCompile Include="SCPIInterface\src\scpi-def.cpp">
+      <Filter>interface\scpi</Filter>
+    </ClCompile>
+    <ClCompile Include="SCPIInterface\src\units.cpp">
+      <Filter>interface\scpi</Filter>
+    </ClCompile>
+    <ClCompile Include="SCPIInterface\src\utils.cpp">
+      <Filter>interface\scpi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SCPIInterface\SCPIInterface.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\asio\NetParser.h">
+      <Filter>interface\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\asio\TCPListner.h">
+      <Filter>interface\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\asio\TCPSession.h">
+      <Filter>interface\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\asio\Tools.h">
+      <Filter>interface\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\logger\Logger.h">
+      <Filter>interface\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\logger\StringConv.h">
+      <Filter>interface\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\parser\ParserBase.h">
+      <Filter>interface\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\parser\SCPIDef.h">
+      <Filter>interface\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\parser\SCPIParser.h">
+      <Filter>interface\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\scpi\cc.h">
+      <Filter>interface\scpi</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\scpi\config.h">
+      <Filter>interface\scpi</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\scpi\constants.h">
+      <Filter>interface\scpi</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\scpi\error.h">
+      <Filter>interface\scpi</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\scpi\expression.h">
+      <Filter>interface\scpi</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\scpi\ieee488.h">
+      <Filter>interface\scpi</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\scpi\minimal.h">
+      <Filter>interface\scpi</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\scpi\parser.h">
+      <Filter>interface\scpi</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\scpi\scpi.h">
+      <Filter>interface\scpi</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\scpi\scpi-def.h">
+      <Filter>interface\scpi</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\scpi\types.h">
+      <Filter>interface\scpi</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\scpi\units.h">
+      <Filter>interface\scpi</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\scpi\utils.h">
+      <Filter>interface\scpi</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\src\fifo_private.h">
+      <Filter>interface\scpi</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\src\lexer_private.h">
+      <Filter>interface\scpi</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\src\parser_private.h">
+      <Filter>interface\scpi</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPIInterface\src\utils_private.h">
+      <Filter>interface\scpi</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
