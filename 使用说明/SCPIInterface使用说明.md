@@ -172,7 +172,7 @@ int main()
 
 Step 2：工程编译运行成功后即可启动服务端，监听端口5050。如图8所示。
 
-![](D:\ASIO_SCPI\InstrumentSCPI\pic\ServerStart.png)
+![](.\pic\ServerStart.png)
 
 <center>图8 启动服务</center>
 
@@ -192,13 +192,13 @@ Step 2：工程编译运行成功后即可启动服务端，监听端口5050。�
 
 执行Step 1~Step5后服务端接收到SCPI指令，控制台输出如下：
 
-![](D:\ASIO_SCPI\InstrumentSCPI\pic\ServerResponse.png)
+![](.\pic\ServerResponse.png)
 
 <center>图10 服务端输出</center>
 
 执行Step 1~Step5后网络助手接收区显示SCPI指令响应，输出如下：
 
-![](D:\ASIO_SCPI\InstrumentSCPI\pic\NetAssisDisConnect.png)
+![](.\pic\NetAssisDisConnect.png)
 
 <center>图11 客户端响应</center>
 
